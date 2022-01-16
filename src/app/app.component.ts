@@ -85,10 +85,10 @@ export class AppComponent {
   public showEndScreen(){
     this.i = 0;
     this.startButtonText = ''
-    if(this.points <=6){
+    if(this.points <=8){
       this.image = '/assets/images/אופציה קצרה/סיום1.png'
     }
-    else if(this.points >6 && this.points <=11){
+    else if(this.points >8 && this.points <=11){
       this.image = '/assets/images/אופציה קצרה/סיום2.png'
     }
     else{
